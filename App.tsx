@@ -14,6 +14,10 @@ export default function App() {
     console.log("Somei -1")
   },[number])
 
+  useEffect(() => {
+    console.log("Só executa uma vez")
+  }, [])
+
   const changeNumber = () => {
     // setNumber( number + 1)
     // setNumber( number + 1)
